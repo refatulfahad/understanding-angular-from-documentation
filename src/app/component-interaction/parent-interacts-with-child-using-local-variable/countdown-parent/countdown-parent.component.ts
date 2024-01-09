@@ -10,6 +10,6 @@ import { timer } from 'rxjs';
     <div class="seconds">{{timer.seconds}}</div>
     <app-countdown-timer #timer></app-countdown-timer>
   `,
-  styleUrls: ['../../../assets/demo.css']
+  styleUrls: ['../../../../assets/demo.css']
 })
 export class CountdownParentComponent {}
